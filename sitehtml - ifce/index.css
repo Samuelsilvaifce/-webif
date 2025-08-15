@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+.banner {
+    background: #333;
+    color: white;
+    text-align: left;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.banner-texto img{
+    float: right;
+    width: 30%;
+    margin-right: -50px;
+    margin-top: -25px;
+}
+
+main {
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.produtos, .servicos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.produto, .servico {
+    border: 1px solid #a09c9c;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    background: #ffffff;
+}
+
+.produto img, .servico img {
+    width: 100%;
+    height: auto;
+}
+
+.produto a{
+    text-decoration: none;
+    color: black;
+}
+
+.produto a:hover{
+    text-decoration: underline;
+}
+
+.servicos a{
+    text-decoration: none;
+    color: black;
+}
+.servico:hover{
+    text-decoration: underline;
+}
+
+section .sobre-me{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    text-align: center; 
+}
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+section .sobre-me a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .rodape-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-titulo{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    text-align: center; 
+}
+
+.detalhes-produto {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.detalhes-produto img {
+    max-width: 300px;
+}
+
+.preco {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.form-compra {
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-compra form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-compra input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.total {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
